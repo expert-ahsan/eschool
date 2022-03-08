@@ -1,0 +1,233 @@
+/*// `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*Menu*/
+.menu_hov li {
+    margin: 0 !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+.cus_sign {
+    padding: 15px !important;
+    color: white !important;
+    background: #21b573;
+    width: 40%;
+    text-align: center;
+}
+.menu_hov a:before {
+    left: -10px;
+}
+.menu_hov a:after {
+    right: 205px;
+    bottom: 5px;
+}
+/*Menu*/
+/*Banner*/
+#banner {
+    padding-top: 30px;
+    padding-bottom: 70px;
+    background: #f0fff0 !important;
+}
+/*Banner*/
+/*Slider*/
+.ban_h1 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 5px 0 20px 0;
+}
+.ban_p02 {
+    margin: 0 0 30px 0;
+    line-height: 25px;
+}
+.es_indi {
+    bottom: -70px;
+    left: 0;
+    right: 0;
+}
+/*Slider*/
+/*Card*/
+.date-text {
+    text-align: center;
+}
+.seat-text {
+    text-align: center;
+}
+/*Card*/
+/*Testimonial*/
+.user-pic {
+    display: flex;
+    justify-content: center;
+}
+.test-text p {
+    margin-top: 20px;
+    text-align: center;
+}
+.test-text h5 {
+    text-align: center;
+}
+.carousel-indicators {
+    bottom: -55px;
+}
+.testi-slider {
+    left: 0%;
+}
+/*Testimonial*/
+}
+
+
+/*// `md` applies to small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*Menu*/
+.menu_hov li {
+    margin: 0 !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+.cus_sign {
+    padding: 10px !important;
+    color: white !important;
+    background: #21b573;
+    width: 20%;
+    text-align: center;
+}
+.menu_hov a:before {
+    left: -10px;
+}
+.menu_hov a:after {
+    left: 55px;
+    bottom: 5px;
+}
+/*Menu*/
+/*Banner*/
+#banner {
+    padding-top: 30px;
+    padding-bottom: 70px;
+    background: #f0fff0 !important;
+}
+/*Banner*/
+/*Slider*/
+.ban_h1 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 5px 0 20px 0;
+}
+.ban_p02 {
+    margin: 0 0 30px 0;
+    line-height: 25px;
+}
+.es_indi {
+    bottom: -70px;
+    left: -200px;
+    right: 46%;
+}
+/*Slider*/
+/*Testimonial*/
+.user-pic {
+    display: flex;
+    justify-content: center;
+}
+.test-text p {
+    margin-top: 20px;
+    text-align: center;
+}
+.test-text h5 {
+    text-align: center;
+}
+.carousel-indicators {
+    bottom: -55px;
+}
+.testi-slider {
+    left: 0%;
+}
+/*Testimonial*/
+}
+
+/*// `lg` applies to medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*Menu*/
+.menu_hov li {
+    margin: 0 !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+.cus_sign {
+    padding: 10px !important;
+    color: white !important;
+    background: #21b573;
+    width: 20%;
+    text-align: center;
+}
+.menu_hov a:before {
+    left: -10px;
+}
+.menu_hov a:after {
+    left: 55px;
+    bottom: 5px;
+}
+/*Menu*/
+/*Counter*/
+.box-count h2 {
+    font-size: 17px;
+}
+/*Counter*/
+/*Testimonial*/
+.carousel-indicators {
+    bottom: -22px;
+}
+/*Testimonial*/
+/*Footer*/
+.foo_text h5 {
+    font-size: 16px;
+}
+/*Footer*/
+}
+
+/*// `xl` applies to large devices (desktops, less than 1200px)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*Counter*/
+.box-count h2 {
+    font-size: 21px;
+}
+/*Counter*/
+/*Testimonial*/
+.carousel-indicators {
+    bottom: -22px;
+}
+/*Testimonial*/
+}
+
+/*// `xxl` applies to x-large devices (large desktops, less than 1400px)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+/*Card*/
+.date-text {
+    text-align: Left;
+}
+.seat-text {
+    text-align: Right;
+}
+/*Card*/
+/*Testimonial*/
+.carousel-indicators {
+    bottom: -22px;
+}
+/*Testimonial*/
+}
+
+/*// `xxl` applies to x-large devices (large than 1400px)*/
+@media (min-width: 1400px) {
+/*Card*/
+.date-text {
+    text-align: Left;
+}
+.seat-text {
+    text-align: Right;
+}
+/*Card*/
+}
